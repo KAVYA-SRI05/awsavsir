@@ -1,0 +1,5 @@
+First in this we create the vpc and main security is provided to vpc in 2 ways
+1.security grroups(at instance level)
+2.NACL(network access control list)(in the subnet level)
+-->it is a simple as apple because we create vpc->we create ec2->network settings->attach the vpc->launch instance->connect instance->deploy python app in ec2->sudo yum install->sudo yum update->python3->python3 -m http.server 8000-->
+next we give our ec2 ip and port number it wont show python application->so we go to secutiy group and then we edit inbound rules->and add all traaffic and add new port number and also in nacl by the way we can control the security access
